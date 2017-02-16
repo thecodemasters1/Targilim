@@ -25,5 +25,9 @@ int main()
 	printf("\nQueue Length:%d\n", get_queue_length(testQueue));
 
 	printf("\nFirst Value:%d\n", get_first_value(testQueue));
+
+	deleteQueue(&testQueue);
+	printf("\nAfter Delete:\n");
+	print_queue(testQueue);
 	return 0;
 }

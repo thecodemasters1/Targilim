@@ -11,6 +11,15 @@ Queue initQueue()
 }
 
 //Func #2
+void deleteQueue(Queue * q)
+{
+	unsigned i;
+	int length = get_queue_length(*q);
+	for (i = 0; i < length; i++)
+	{
+		pop(q);
+	}
+}
 
 //Func #3
 void add_to_queue(Queue * q, void * value)
