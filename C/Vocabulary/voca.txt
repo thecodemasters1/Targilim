@@ -1,0 +1,2 @@
+drink,beverage,liquor,booze
+people,society,human beings
